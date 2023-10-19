@@ -19,8 +19,7 @@
     background-image: url('../imagens/city.png')
     ,url('../imagens/city2.png');
     background-repeat: no-repeat;
-    height: 300vh;
-    max-width: 1848px;
+    height: 100%;
 }
 .borda {
     display: block;
@@ -209,7 +208,6 @@
 }
 .redblock  {
 
-    margin: 100px 150px 0px 150px;
     display: flex;
     background-color: var(--cor2);
     height: 540px;
