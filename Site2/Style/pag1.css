@@ -77,6 +77,9 @@ header {
     font-size: 20px;
     padding: 10px 40px 10px 10px;
 }
+.pesquisa > input:hover {
+    background-color: #251f3f;
+}
 #Search::-webkit-search-cancel-button {
     -webkit-appearance: none;
 }
@@ -90,6 +93,35 @@ header {
     cursor: pointer;
     height: 37px;
     width: 37px;
+    transition: all 0.3s;
+}
+.pesquisa button:hover {
+    background-color: #585281;
+}
+.banner {
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    
+}
+.texto1 {
+    border-bottom: 2px solid #FF4655;
+    font-size: 20px;
+    font-family: var(--font1);
+    font-weight: 600;
+    text-shadow: 1px 1px 4px #000000f8;
+    position: absolute;
+    left: 15px;
+    bottom: 40px;
+}
+.texto2 {
+    font-size: 20px;
+    font-family: var(--font1);
+    font-weight: 600;
+    text-shadow: 1px 1px 4px #000000f8;
+    position: absolute;
+    left: 15px;
+    bottom: 17px;
 }
 #bannerJ {
     display: flex;
