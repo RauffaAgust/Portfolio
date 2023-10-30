@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+:root { 
+    --font1: font-family: 'Playfair Display', serif; 
+    --font2: font-family: 'EB Garamond', serif;
+    --font3: font-family: 'Lato', sans-serif;
+
+}
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-color:#1A1F23 ;
+}
+
+#menu {
+    display: flex;
+    
+   
+}
+#menu > a {
+    font-family: var(--font1);
+    color: rgb(133, 132, 132);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 00;
+}
