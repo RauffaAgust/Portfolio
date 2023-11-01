@@ -20,7 +20,7 @@ body {
 #menu {
     display: flex;
     justify-content: end;
-   
+    margin: 0px 100px 0px 100px;
 }
 #menu > a {
     font-family: var(--font2);
@@ -28,5 +28,67 @@ body {
     color: rgb(133, 132, 132);
     text-decoration: none;
     padding: 10px;
-    
+}
+#menu > a:hover {
+    color: white;
+}
+.pau {
+    top: -200px;
+    left: -32px;
+    position: relative;
+}
+.container {
+    display: flex;
+    position: relative;
+    top: -800px;
+    background-color: #1A1F23;
+    box-shadow: 5px 7px 10px rgba(0, 0, 0, 0.582);
+    margin: 100px;
+}
+#bloc1 {
+    color: white;
+    box-shadow: 1px 0px 0px white;
+    font-family: var(--font2);
+    font-size: 35px;
+    margin: 50px 0px 50px 50px;
+}
+#threepic {
+    display: flex;
+}
+.furnitureP {
+    width: 150px;
+    margin: 10px 20px 0px 0px;
+}
+#bloc2 {
+    margin: 50px;
+    color: rgb(133, 132, 132);
+    font-family: var(--font3);
+}
+#bloc2 > p {
+    margin-top: 10px;
+    line-height: 24px;
+    font-size: 18px;
+}
+#contact {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+    background-color: #292f33;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.493);
+    transition: all 0,5s;
+}
+#contact:hover {
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.853) ;
+}
+#contact > p {
+    margin: 0px auto 0px auto;
+}
+#pau2 {
+    position: relative;
+    top: -1070px;
+    text-align: end;
 }
