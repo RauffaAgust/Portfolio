@@ -92,7 +92,12 @@ body {
     top: -1070px;
     text-align: end;
 }
-
+#paufundo {
+    position: absolute ;
+    top: 899px;
+    rotate: 180deg ;
+    transform: scaleX(-1);
+}
 
 #role1 {
     font-family: var(--font2);
