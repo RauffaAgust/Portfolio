@@ -1,7 +1,17 @@
 function clickMenu() {
     if (itensMenu.style.display == 'block') {
-        itensMenu.style.display = 'none' & iconMenu.style.text-aling = 'none'
+        itensMenu.style.display = 'none'
     } else {
         itensMenu.style.display = 'block'
+    } 
+    if (iconMenu.style.width == '70vw') {
+        iconMenu.style.width = '100vw'
+    } else {
+        iconMenu.style.width = '70vw'
+    }
+    if (iconMenu.style.borderRadius == '0px 13px 0px 0px') {
+        iconMenu.style.borderRadius = '0px'
+    } else {
+        iconMenu.style.borderRadius = '0px 13px 0px 0px'
     }
 }
