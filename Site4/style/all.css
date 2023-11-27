@@ -80,7 +80,7 @@ div#titlelayout {
     background-size: 300px;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 #centerweb > h2 {
@@ -95,12 +95,21 @@ div#titlelayout {
 }
 
 div#operation {
-    display: inline-block;
+    display: block;
+    height: 200px;
+    text-align: center;
+    margin-top: 40px;
+    background: url('../imagens/mobilet-beans.png') center no-repeat;
+    background-size: 200px;
 }
 
 div#operation > h2,p {
-    justify-content: baseline;
     font-family: var(--font1);
     font-weight: 400;
-    font-size: 15px;
+    font-size: 17px;
+    padding: 5px;
+    
+}
+div#operation > p {
+    font-size: 13px; 
 }
