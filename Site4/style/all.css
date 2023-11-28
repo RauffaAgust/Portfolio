@@ -30,7 +30,7 @@ body {
     cursor: pointer;
 }
 
-#itensMenu { display: block; }
+#itensMenu { display: none; }
 
 menu > ul { 
     list-style-type: none; 
@@ -161,7 +161,7 @@ div#operation > p {
 #story > p {
     font: 100 15px var(--font1);
     line-height: 20px ;
-    width: 250px;
+    width: 300px;
 }
 
 #story > img {
