@@ -28,37 +28,51 @@ body {
     cursor: pointer;
 }
 
-#itensMenu { display: none; }
+#itensMenu { display: block; }
 
 menu > ul { 
     list-style-type: none; 
     background-color: #333333;
-    width: 70vw;
-    height: 100vh;
+    width: 100vw;
+    height: 68vh;
     padding-top: 30px;
 }
-    
-menu  a {
+menu > ul > li {
+    border-top: 1px solid rgb(75, 75, 75);
+}
+menu > ul > li > a {
     display: flex;
     color: white;
     text-decoration: none;
     font-family: var(--font1);
     font-weight: 300;
     font-size: 1.5em;
-    margin: 0px 0px 20px 30px; 
+    margin: 10px 0px 10px 120px;
 }
+
 menu > ul > li > a > i {
     margin: 3px 10px 0px 0px;
 }
 
 ul img { width: 100px; display: none; }
 
+#sociais {
+    display: flex;
+    background-color: #333333;
+    justify-content: space-around;
+    
+}
+#sociais a > img {
+    width: 40px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
 div#titlelayout {
     position: fixed;
     color: #b8b5a1;
     font-size: 70px;
     font-family: var(--font3);
-    
 }
 
 #logoweb > h1 {
@@ -69,21 +83,29 @@ div#titlelayout {
     font-size: 20px;
     margin-top: 50px;
 }
+
 #line {
     text-align: center;
 }
+
 #line > img {
     width: 130px;
 }
+
 #centerweb {
     background: url('../imagens/coffee.png') center no-repeat;
     background-size: 300px;
+}
+
+#container {
+    background: url('../imagens/mobilet-beans.png') center no-repeat;
+    background-size: 260px;
     display: flex;
     justify-content: center;
     margin-top: 40px;
 }
 
-#centerweb > h2 {
+#container > h2 {
     font-family: var(--font2);
     font-weight: 300;
     font-size: 15px;
@@ -99,8 +121,7 @@ div#operation {
     height: 200px;
     text-align: center;
     margin-top: 40px;
-    background: url('../imagens/mobilet-beans.png') center no-repeat;
-    background-size: 200px;
+    
 }
 
 div#operation > h2,p {
@@ -110,6 +131,7 @@ div#operation > h2,p {
     padding: 5px;
     
 }
+
 div#operation > p {
     font-size: 13px; 
 }
