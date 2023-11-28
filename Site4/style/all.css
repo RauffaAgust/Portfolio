@@ -17,6 +17,8 @@ body {
     background-color: #F5F2EB ;
 }
 
+/* Menu tab */
+
 #iconMenu {
     display: block;
     background-color: #333333;
@@ -67,6 +69,8 @@ ul img { width: 100px; display: none; }
     margin-bottom: 15px;
     margin-top: 10px;
 }
+
+/* Principal tab */
 
 div#titlelayout {
     position: fixed;
@@ -135,3 +139,33 @@ div#operation > h2,p {
 div#operation > p {
     font-size: 13px; 
 }
+
+/* Story tab */
+
+#story {
+    text-align: center;
+    margin-top: -30px;
+}
+#ajuststory {
+    display: flex;
+    justify-content: center;
+}
+#story > h1 {
+    
+    font-family: var(--font1);
+    color: #333333;
+    font-weight: 500;
+    text-align: center;
+}
+
+#story > p {
+    font: 100 15px var(--font1);
+    line-height: 20px ;
+    width: 250px;
+}
+
+#story > img {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
