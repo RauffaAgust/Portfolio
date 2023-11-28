@@ -175,26 +175,28 @@ div#operation > p {
 /* Footer tab */
 
 footer {
-
+    background-color: #333333;
 }
-
 #containerF {
     display: flex;
-    background-color: #333333;
-    padding: 10px;
+    padding: 20px 0px 70px 0px;
 }
-
-.flagsifon {
-    padding: 20px;
+.Fifon {
+    display: block;
+    text-align: center;
+    margin: auto;
 }
-.flagsifon > h3{
+.Fifon > h3{
     text-align: center;
     color: #9C9C9C;
     font-family: var(--font1);
     font-weight: 100;
     font-size: 13px;
 }
-.flagsifon > img {
+.Fifon > img {
     width: 40px;
 }
-#mark { color: #B18B55 ;}
+mark { 
+    color: #B18B55 ;
+    background: transparent;
+}
