@@ -139,14 +139,20 @@ div#operation > p {
 
 /* Story tab */
 
+#ajuststory {
+    background: url('../imagens/cup-layout.png') no-repeat;
+    background-position: right bottom ;
+    background-size: 50px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
 #story {
     text-align: center;
     margin-top: -30px;
 }
-#ajuststory {
-    display: flex;
-    justify-content: center;
-}
+
 #story > h1 {
     
     font-family: var(--font1);
@@ -166,3 +172,29 @@ div#operation > p {
     margin-bottom: 10px;
 }
 
+/* Footer tab */
+
+footer {
+
+}
+
+#containerF {
+    display: flex;
+    background-color: #333333;
+    padding: 10px;
+}
+
+.flagsifon {
+    padding: 20px;
+}
+.flagsifon > h3{
+    text-align: center;
+    color: #9C9C9C;
+    font-family: var(--font1);
+    font-weight: 100;
+    font-size: 13px;
+}
+.flagsifon > img {
+    width: 40px;
+}
+#mark { color: #B18B55 ;}
