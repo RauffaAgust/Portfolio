@@ -1,0 +1,28 @@
+/* Footer tab */
+
+footer {
+    background-color: #333333;
+}
+#containerF {
+    display: flex;
+    padding: 20px 0px 70px 0px;
+}
+.Fifon {
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.Fifon > h3{
+    text-align: center;
+    color: #9C9C9C;
+    font-family: var(--font1);
+    font-weight: 100;
+    font-size: 13px;
+}
+.Fifon > img {
+    width: 40px;
+}
+mark { 
+    color: #B18B55 ;
+    background: transparent;
+}
