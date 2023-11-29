@@ -34,7 +34,7 @@ body {
 
 #introduction > p {
     padding-top: 10px;
-    font: 200 10px var(--font1);
+    font: 400 12px var(--font1);
     letter-spacing: 1px;
     color: #333334;
 }
@@ -46,9 +46,6 @@ body {
     margin: 30px 0px 30px 0px;
 }
 
-#list {
-
-}
 span {
     display: flex;
 }
@@ -57,13 +54,13 @@ span > img {
     padding: 10px;
 }
 .description > h1 {
-    font: 700 10px var(--font2);
+    font: 700 12px var(--font2);
     margin-top: 22px;
 }
 
 .description > p {
     padding-top: 4px;
-    font: 200 10px var(--font1);
+    font: 400 12px var(--font1);
     color: #333334;
     letter-spacing: 1px;
 }
