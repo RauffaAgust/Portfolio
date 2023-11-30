@@ -69,7 +69,8 @@ header > h1 {
     border: 1px solid rgb(122, 122, 122);
     font: 500 14px var(--font1);
     margin: 10px;
-    padding: 10px 145px 7px 7px;
+    width: 230px;
+    padding: 10px 7px;
     color: rgb(122, 122, 122);
 }
 #userText { 
