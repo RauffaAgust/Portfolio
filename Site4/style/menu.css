@@ -30,7 +30,7 @@ body {
 
 #itensMenu { display: none; }
 
-@media (orientation: landscape){
+@media screen and (orientation: landscape){
     menu > ul {
         height: 100vh;
     }
