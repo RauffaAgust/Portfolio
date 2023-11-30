@@ -47,7 +47,7 @@ main {
 #introduction > p {
     padding-top: 10px;
     font: 400 12px var(--font1);
-    letter-spacing: 1px;
+    word-spacing: 1.4px;
     color: #333334;
 }
 
@@ -74,5 +74,5 @@ span > img {
     padding-top: 4px;
     font: 400 12px var(--font1);
     color: #333334;
-    letter-spacing: 1px;
+    word-spacing: 1.4px;
 }
