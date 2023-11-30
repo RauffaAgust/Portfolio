@@ -95,3 +95,10 @@ header > h1 {
     margin-bottom: 30px;
     cursor: pointer;
 }
+
+#map {
+    background: url('../imagens/maplocate.png') center no-repeat;
+    background-size:cover;
+    height: 220px;
+    box-shadow: inset 0px 2px 5px black;
+}
