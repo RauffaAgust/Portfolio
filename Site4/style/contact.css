@@ -74,12 +74,12 @@ header > h1 {
 #userText { 
     text-align: center;
 }
-#userText > input {
+#userText > textarea {
     background-color: transparent;
     border: 1px solid rgb(122, 122, 122);
     font: 500 14px var(--font1);
     margin: 10px;
-    padding: 10px 145px 200px 7px;
+    padding: 10px 7px 100px 7px;
     color: rgb(122, 122, 122);
 }
 #subm {
