@@ -30,6 +30,15 @@ body {
 
 #itensMenu { display: none; }
 
+@media (orientation: landscape){
+    menu > ul {
+        height: 100vh;
+    }
+    menu > ul > li > a {
+        font-size: 0.5em;
+    }
+}
+
 menu > ul { 
     list-style-type: none; 
     background-color: #333333;
