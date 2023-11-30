@@ -14,16 +14,12 @@ header {
     background-size: 100%;
     box-shadow: inset 2px 5px 10px black;
 }
-
 header > h1 {
     text-align: center;
     font: 200 30px var(--font1);
     color: white;
     height: 90px;
     padding-top: 40px;
-}
-
-main {
 }
 
 #infos {
@@ -34,7 +30,6 @@ main {
     text-align: center;
     line-height: 15px;
 }
-
 #infos > span > img {
     width: 40px;
 }
@@ -43,7 +38,6 @@ main {
     color: black;
     padding-bottom: 4px;
 }
-
 #infos > span > p {
     color: rgb(122, 122, 122);
     font: 800 6px var(--font2);
@@ -53,17 +47,51 @@ main {
 #drop {
     text-align: center;
 }
-
 #drop > h1 {
     font: 400 30px var(--font1);
 }
-
 #drop > img {
     width: 120px;
 }
-
 #drop > p {
     font: 600 10px var(--font2);
     color: rgb(122, 122, 122);
     padding-bottom: 30px;
+}
+
+
+#userInfo {
+    text-align: center;
+}
+#userInfo > input {
+    background-color: transparent;
+    border: 1px solid rgb(122, 122, 122);
+    font: 500 14px var(--font1);
+    margin: 10px;
+    padding: 10px 145px 7px 7px;
+    color: rgb(122, 122, 122);
+}
+#userText { 
+    text-align: center;
+}
+#userText > input {
+    background-color: transparent;
+    border: 1px solid rgb(122, 122, 122);
+    font: 500 14px var(--font1);
+    margin: 10px;
+    padding: 10px 145px 200px 7px;
+    color: rgb(122, 122, 122);
+}
+#subm {
+    text-align: center;
+}
+#subm > input {
+    background-color: #C09457 ;
+    border: 0px;
+    color: white;
+    font: 400 14px var(--font1);
+    letter-spacing: 1.5px;
+    padding: 6px 16px;
+    margin-bottom: 30px;
+    cursor: pointer;
 }
