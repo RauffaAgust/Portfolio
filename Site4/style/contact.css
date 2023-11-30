@@ -49,3 +49,21 @@ main {
     font: 800 6px var(--font2);
     line-height: 10px;
 }
+
+#drop {
+    text-align: center;
+}
+
+#drop > h1 {
+    font: 400 30px var(--font1);
+}
+
+#drop > img {
+    width: 120px;
+}
+
+#drop > p {
+    font: 600 10px var(--font2);
+    color: rgb(122, 122, 122);
+    padding-bottom: 30px;
+}
