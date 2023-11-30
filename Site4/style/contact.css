@@ -10,11 +10,42 @@
 }
 
 header {
-    background-image: url('../imagens/layoutbeans.png');
+    background: url('../imagens/layoutbeans.png') fixed;
+    background-size: 100%;
+    box-shadow: inset 2px 5px 10px black;
 }
 
 header > h1 {
-    font-family: var(--font2);
-    font-weight: ;
+    text-align: center;
+    font: 200 30px var(--font1);
     color: white;
+    height: 90px;
+    padding-top: 40px;
+}
+
+main {
+}
+
+#infos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px;
+    text-align: center;
+    line-height: 15px;
+}
+
+#infos > span > img {
+    width: 40px;
+}
+#infos > span > h1 {
+    font: 800 10px var(--font2) ;
+    color: black;
+    padding-bottom: 4px;
+}
+
+#infos > span > p {
+    color: rgb(122, 122, 122);
+    font: 800 6px var(--font2);
+    line-height: 10px;
 }
