@@ -25,6 +25,7 @@ body {
     border-radius: 0px;
     padding: 10px 0px 10px 0px;
     cursor: pointer;
+    box-shadow: 2px 0px 5px rgb(122, 122, 122);
 }
 
 #itensMenu { display: none; }
