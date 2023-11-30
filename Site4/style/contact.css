@@ -57,6 +57,7 @@ header > h1 {
     font: 600 10px var(--font2);
     color: rgb(122, 122, 122);
     padding-bottom: 30px;
+    margin: 0px 13px;
 }
 
 
@@ -79,7 +80,7 @@ header > h1 {
     border: 1px solid rgb(122, 122, 122);
     font: 500 14px var(--font1);
     margin: 10px;
-    padding: 10px 7px 100px 7px;
+    padding: 10px 7px 0px 7px;
     color: rgb(122, 122, 122);
 }
 #subm {
