@@ -66,6 +66,10 @@ ul img { display: none; }
     margin-bottom: 15px;
 }
 
+.icon-mobile { 
+    width: 35px;
+    padding-top: 4px; 
+}
 @media(orientation:landscape){
 
     #iconMenu { display: none ;}
