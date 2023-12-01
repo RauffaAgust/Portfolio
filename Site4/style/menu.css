@@ -30,15 +30,6 @@ body {
 
 #itensMenu { display: none; }
 
-@media(orientation:landscape){
-    menu > ul {
-        height: 100vh;
-    }
-    menu > ul > li > a {
-        font-size: 0.5em;
-    }
-}
-
 menu > ul { 
     list-style-type: none; 
     background-color: #333333;
@@ -62,7 +53,7 @@ menu > ul > li > a > i {
     margin: 3px 10px 0px 0px;
 }
 
-ul img { width: 100px; display: none; }
+ul img { display: none; }
 
 #sociais {
     display: flex;
@@ -73,4 +64,37 @@ ul img { width: 100px; display: none; }
 #sociais a > img {
     width: 40px;
     margin-bottom: 15px;
+}
+
+@media(orientation:landscape){
+
+    #iconMenu { display: none ;}
+    #sociais { display: none ;}
+    #itensMenu { display: block; }
+    .icon-mobile { display: none ;}
+    
+
+    menu > ul {
+        height: 20vh;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        box-shadow: 1px 1px 1px 1px #33333388;
+    }
+
+    menu > ul > li { 
+        border-top: 0px;
+
+    }
+
+    menu > ul > li > a {
+        font-size: 0.5em;
+        padding-top: 19px;
+        margin: 0px 20px 0px 20px;
+    }
+    
+    menu > ul > li > img {
+        display: block;
+        width: 100px;
+    }
 }

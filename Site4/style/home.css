@@ -102,3 +102,5 @@ div#operation > p {
     width: 100px;
     margin-bottom: 10px;
 }
+
+#pag-home { display: none; }
