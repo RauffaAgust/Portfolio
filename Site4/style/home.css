@@ -56,7 +56,7 @@ div#operation {
     
 }
 
-div#operation > h2,p {
+div#operation > h2 {
     font-family: var(--font1);
     font-weight: 400;
     font-size: 17px;
@@ -65,7 +65,10 @@ div#operation > h2,p {
 }
 
 div#operation > p {
-    font-size: 13px; 
+    font-family: var(--font1);
+    font-weight: 400;
+    font-size: 13px;
+    padding: 5px;
 }
 
 /* Story tab */
@@ -102,5 +105,3 @@ div#operation > p {
     width: 100px;
     margin-bottom: 10px;
 }
-
-#pag-home { display: none; }
