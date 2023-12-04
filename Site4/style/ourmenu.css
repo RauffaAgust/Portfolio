@@ -93,16 +93,15 @@ span > img {
 
 #phrase {
     text-align: center;
-    background: url('../imagens/layoutcupcoffee.png') center fixed;
+    background: url('../imagens/layoutcupcoffee-mobile.png');
     background-repeat: no-repeat;
-    background-size:500px;
+    background-size:1000px;
     box-shadow: inset 2px 5px 10px black;
 }
 #phrase > h1 {
     text-align: center;
     font: 200 30px var(--font1);
     color: white;
-    height: 90px;
     padding-top: 40px;
 }
 #phrase > p {
