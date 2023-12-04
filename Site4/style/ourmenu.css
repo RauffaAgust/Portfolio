@@ -93,7 +93,7 @@ span > img {
 
 #phrase {
     text-align: center;
-    background: url('../imagens/layoutcupcoffee-mobile.png') center fixed;
+    background: url('../imagens/cup-beans-layout.png') center fixed;
     background-repeat: no-repeat;
     background-size:cover;
     box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.479);
@@ -112,4 +112,8 @@ span > img {
 #phrase > img {
     padding-top: 20px;
     width: 90px;
+}
+
+@media (orientation:landscape) {
+    #phrase { background-image: url('../imagens/cup-beans-layout.png');}
 }
