@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>gallery</title>
-    <link rel="stylesheet" href="style/all.css">
+   
     <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/menu.css">
     <link rel="stylesheet" href="style/gallery.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
     <span id="iconMenu" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
@@ -33,7 +34,7 @@
                 </a>
             </li>
             <li>
-                <img src="imagens/logo.png" alt="logo principal">
+                <img id="logoMenu" src="imagens/logo.png" alt="logo principal">
             </li>
            
             <li id="pag-blog">
@@ -68,7 +69,7 @@
 
 <section class="content">
         <ul class="filter">
-            <li class="item" data-filter="all active">ALL</li>
+            <li class="item active" data-filter="all">ALL</li>
             <li class="item" data-filter="interior">INTERIOR</li>
             <li class="item" data-filter="coffee">COFFEE</li>
             <li class="item" data-filter="products">PRODUCTS</li>
@@ -76,9 +77,9 @@
             <li class="item" data-filter="organic">ORGANIC</li>
         </ul>
         <ul class="itens">
-            <li class="item beans"><img src="../Site4/gallery/beans1.jpeg" alt=""></li>
-            <li class="item beans"><img src="./gallery/beans2.jpeg" alt=""></li>
-            <li class="item beans"><img src="./gallery/beans3.jpeg" alt=""></li>
+            <li class="item beans"><img src="gallery/beans1.jpeg" alt="beans1"></li>
+            <li class="item beans"><img src="./gallery/beans2.jpeg" alt="beans2"></li>
+            <li class="item beans"><img src="./gallery/beans3.jpeg" alt="beans3"></li>
             <li class="item beans"><img src="./gallery/beans4.jpeg" alt=""></li>
             <li class="item beans"><img src="./gallery/beans5.jpeg" alt=""></li>
             <li class="item beans"><img src="./gallery/beans6.jpeg" alt=""></li>
@@ -108,7 +109,8 @@
             <li class="item products"><img src="./gallery/products6.jpeg" alt=""></li>
         </ul>
 </section>
-
+        
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script src="js/javinha.js"></script>
 </body>
 </html>
