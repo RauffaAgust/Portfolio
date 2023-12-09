@@ -37,7 +37,7 @@ header > h1 {
     
 }
 
-.filter .item {
+.filter .button {
     color: black;
     padding: 0px 6px ;
     cursor: pointer;
